@@ -1,0 +1,32 @@
+{
+  "name": "coptic-ask",
+  "interface": {
+    "displayName": "Coptic Ask"
+  },
+  "plugins": [
+    {
+      "name": "ask-pope-shenouda",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ask-pope-shenouda"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    },
+    {
+      "name": "ask-church-fathers",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ask-church-fathers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "ask-pope-shenouda": {
+      "type": "streamable-http",
+      "url": "https://copticask.jesox.com/pope/mcp"
+    }
+  }
+}

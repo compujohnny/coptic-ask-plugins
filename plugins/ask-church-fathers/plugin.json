@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ask-church-fathers",
+  "version": "1.0.0",
+  "description": "Ask the Church Fathers (اسأل آباء الكنيسة): your Bible and spiritual questions answered with clips of recorded sermons and lectures by Coptic Orthodox fathers and teachers, as in the CopticBible app: video and audio parts with exact time ranges, Bible references, Arabic captions, English subtitles and dub where available, and links to the web and the Android app.",
+  "author": {
+    "name": "Jesox",
+    "url": "https://jesox.com"
+  },
+  "homepage": "https://copticask.jesox.com",
+  "repository": "https://github.com/compujohnny/coptic-ask-plugins",
+  "license": "LicenseRef-Jesox",
+  "keywords": [
+    "coptic",
+    "orthodox",
+    "bible",
+    "arabic",
+    "christian",
+    "sermons",
+    "q&a"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ask the Church Fathers",
+        "shortDescription": "Coptic fathers answer you",
+        "longDescription": "Ask the Church Fathers (اسأل آباء الكنيسة): your Bible and spiritual questions answered with clips of recorded sermons and lectures by Coptic Orthodox fathers and teachers, as in the CopticBible app: video and audio parts with exact time ranges, Bible references, Arabic captions, English subtitles and dub where available, and links to the web and the Android app.",
+        "developerName": "Jesox",
+        "category": "Education",
+        "capabilities": [
+          "Answers questions with recorded lecture clips",
+          "Video and text answers",
+          "Arabic captions, English subtitles and dub",
+          "Links to the web and Android app"
+        ],
+        "websiteURL": "https://copticask.jesox.com",
+        "privacyPolicyURL": "https://compujohnny.com/ask-the-church-fathers/privacy/",
+        "termsOfServiceURL": "https://compujohnny.com/ask-the-church-fathers/terms/",
+        "supportURL": "https://github.com/compujohnny/coptic-ask-plugins/issues",
+        "defaultPrompt": [
+          "لماذا بكى يسوع عند قبر لعازر؟",
+          "ما معنى التجسد؟",
+          "كيف أصلي صلاة مقبولة؟"
+        ],
+        "brandColor": "#8a1c1c",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ask-pope-shenouda": {
+      "type": "http",
+      "url": "https://copticask.jesox.com/pope/mcp"
+    }
+  }
+}

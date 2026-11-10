@@ -1,0 +1,51 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ask-pope-shenouda",
+  "version": "1.0.0",
+  "description": "Ask Pope Shenouda III (اسأل البابا شنوده): your spiritual and Bible questions answered with clips of his own recorded lectures, as in the Pope Shenouda app: video and audio parts with exact time ranges, Arabic captions, English subtitles and dub where available, and links to open the answer on the web and in the Android app.",
+  "author": {
+    "name": "Jesox",
+    "url": "https://jesox.com"
+  },
+  "homepage": "https://copticask.jesox.com",
+  "repository": "https://github.com/compujohnny/coptic-ask-plugins",
+  "license": "LicenseRef-Jesox",
+  "keywords": [
+    "coptic",
+    "orthodox",
+    "bible",
+    "arabic",
+    "christian",
+    "sermons",
+    "q&a"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Ask Pope Shenouda",
+        "shortDescription": "Pope Shenouda III answers you",
+        "longDescription": "Ask Pope Shenouda III (اسأل البابا شنوده): your spiritual and Bible questions answered with clips of his own recorded lectures, as in the Pope Shenouda app: video and audio parts with exact time ranges, Arabic captions, English subtitles and dub where available, and links to open the answer on the web and in the Android app.",
+        "developerName": "Jesox",
+        "category": "Education",
+        "capabilities": [
+          "Answers questions with recorded lecture clips",
+          "Video and text answers",
+          "Arabic captions, English subtitles and dub",
+          "Links to the web and Android app"
+        ],
+        "websiteURL": "https://copticask.jesox.com",
+        "privacyPolicyURL": "https://compujohnny.com/pope-shenouda/privacy/",
+        "termsOfServiceURL": "https://compujohnny.com/pope-shenouda/terms/",
+        "supportURL": "https://github.com/compujohnny/coptic-ask-plugins/issues",
+        "defaultPrompt": [
+          "ما هي الوداعة؟",
+          "كيف أنتصر على الخطية؟",
+          "ما معنى الصلاة الدائمة؟"
+        ],
+        "brandColor": "#8a1c1c",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
