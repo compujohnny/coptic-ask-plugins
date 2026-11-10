@@ -29,6 +29,13 @@ codex plugin add ask-church-fathers@coptic-ask
 Any MCP client (Streamable HTTP, no sign-in): `https://copticask.jesox.com/pope/mcp` and
 `https://copticask.jesox.com/fathers/mcp`.
 
+## Bible reader (Ask the Church Fathers)
+
+Ask to read any chapter ("read me the chapter in John about Lazarus", «اقرأ لي المزمور ٢٣»): the plugin opens it in
+the CopticBible reader. In Claude and ChatGPT it is a card inside the chat; elsewhere a link to the same reader page.
+Read the Arabic text, listen to the chapter with the verse being read highlighted, tap any verse to see and hear the
+fathers' recorded commentary on it, and move to any chapter or book.
+
 ## How answers are shown
 
 Every answer follows the rendering contract `coptic-ask/1.0`

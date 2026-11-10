@@ -28,3 +28,16 @@ of real recordings chosen by the service. Your job is to ask well and show the a
 6. For more of one part (everything said in it), call `get_part(answer_id, n)`. To find teachings on a topic
    without asking, call `search(query)` (free), then offer one of the questions it returns.
 7. Each new question may cost the service money: don't ask the same question twice; reuse `get_answer(answer_id)`.
+
+## Reading the Bible (the CopticBible reader)
+
+When the user wants to read or hear a Bible passage ("read me the chapter in John about Lazarus", «اقرأ لي المزمور
+٢٣», "open Romans 8"), open it in the reader with `open_chapter(book, chapter, verse?)`:
+- Work out the chapter yourself when you know it (Lazarus -> John 11). If unsure, call `find_passage(query)` with a
+  reference or Arabic words from the passage, then open the best hit.
+- `book` takes an id (JHN, PSA, 1CO), an English name or an Arabic name. Pass `verse` to open at a verse with its
+  commentary.
+- Hosts that show cards (Claude, ChatGPT) show the reader inside the chat: the text, the chapter's narration with the
+  verse being read highlighted, every verse's recorded commentary from the fathers (tap a verse), and navigation to
+  any chapter or book. Elsewhere, show the returned markdown: it links to the same reader as a web page.
+- Opening chapters is free. Don't retype the chapter's text yourself; the reader shows it.

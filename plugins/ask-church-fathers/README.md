@@ -19,6 +19,10 @@ plays it at the exact time. Each answer links to the same answer on our website 
 - Codex: ask a question; the `ask-church-fathers` skill uses the `ask-church-fathers` tools.
 
 Tools: `ask`, `get_answer`, `get_part`, `search` (free outline search), `list_sources` (sources and today's questions).
+
+Bible reader: `open_chapter` opens any chapter in the CopticBible reader (text, narration with the verse being read
+highlighted, the fathers' commentary on every verse, navigation to any book and chapter) as a card in Claude and
+ChatGPT, or as a web page elsewhere; `find_passage` finds a chapter by reference or by words from the passage.
 How agents must show answers: `skills/ask-church-fathers/references/RENDERING.md`.
 
 ## Privacy

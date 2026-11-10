@@ -5,20 +5,20 @@
   },
   "metadata": {
     "description": "Ask Pope Shenouda and Ask the Church Fathers",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "ask-pope-shenouda",
       "source": "./plugins/ask-pope-shenouda",
       "description": "Ask Pope Shenouda III (اسأل البابا شنوده): your spiritual and Bible questions answered with clips of his own recorded lectures, as in the Pope Shenouda app: video and audio parts with exact time ranges, Arabic captions, English subtitles and dub where available, and links to open the answer on the web and in the Android app.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "name": "ask-church-fathers",
       "source": "./plugins/ask-church-fathers",
       "description": "Ask the Church Fathers (اسأل آباء الكنيسة): your Bible and spiritual questions answered with clips of recorded sermons and lectures by Coptic Orthodox fathers and teachers, as in the CopticBible app: video and audio parts with exact time ranges, Bible references, Arabic captions, English subtitles and dub where available, and links to the web and the Android app.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
