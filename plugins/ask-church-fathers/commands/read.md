@@ -5,7 +5,9 @@ argument-hint: <a chapter, a reference, or what the passage is about>
 
 Open the Bible passage(s) the user asks for in the CopticBible reader with the `ask-church-fathers` MCP tools:
 0. If it asks for a SUBJECT or a QUESTION (e.g. «مزامير عن المحبة», "verses about hope", "what does the Bible say
-   about forgiveness"), make a reading: `open_reading(title, passages)` with 4-12 passages from across the Bible
+   about forgiveness"), make a reading: `open_reading(title, passages)` with enough passages from across the Bible to cover
+   the subject fully (no fixed number, at most 30), ordered by spiritual importance, the most central first, not Bible
+   order
    ({book, chapter, from, to, note}; several psalms, prophets, Gospels, epistles), chosen from your knowledge and checked
    with `find_passage` when unsure. The reader reads them one after another. Then stop: steps 1-2 are for one chapter.
 1. If it names a book and chapter (or a reference such as «يوحنا ١١: ٣٥», "Psalm 23"), call `open_chapter(book, chapter,
