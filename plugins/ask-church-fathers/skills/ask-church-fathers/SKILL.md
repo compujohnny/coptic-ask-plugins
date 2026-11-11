@@ -61,6 +61,20 @@ Passion"), tell it as a story instead:
 - Weave in a psalm or prophecy at its moment when it belongs to the event; optionally end with a New Testament passage
   about the person (for David: Acts 13:22, Matthew 1).
 - Each passage's note is a short caption of that episode, so the list reads like the story's chapters.
+For ALL the verses with a word or subject («كل الآيات عن الملائكة», "all references to baptism", "every verse that
+mentions the Holy Spirit"), use the concordance, not your memory (it searches every verse, nothing is missed):
+1. `find_verses(terms, books?)` with the Arabic word forms (* = starts with): for baptism «معمودية», «المعمدان»,
+   «اعتمد*», «يعتمد*», «يعمد*»; for angels «ملاك*», «ملائك*». Read the per-term samples and the hits: drop a form that
+   catches another word, narrow with books ("NT" for baptism: in the Old Testament اعتمد means "relied on"), and note
+   the references where the word means something else.
+2. `open_concordance(title, terms, books?, exclude?)` opens them all in Bible order with the words highlighted. Over 500
+   verses, narrow (a testament, some books) and tell the user what was included.
+
+For ALL the STORIES of a kind ("all the stories of God's wrath", «كل المعجزات التي صنعها إيليا»), find the places
+with `find_verses` (e.g. «غضب*» «سخط*» with the Old Testament), then choose the stories themselves (each a whole
+episode, not single verses: the flood, Sodom, the golden calf, Korah, Uzzah, ...) and open them with `open_reading`
+in the order they happened, each note naming the story (up to 60 passages).
+
 Use your knowledge of
 the Bible and check uncertain references with `find_passage`. The reader shows and reads them one after another (only
 those verses), with the fathers' commentary on any verse. Use `open_chapter` only when the user names one chapter or

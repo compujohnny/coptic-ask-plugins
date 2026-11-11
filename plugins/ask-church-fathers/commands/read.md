@@ -9,7 +9,10 @@ Open the Bible passage(s) the user asks for in the CopticBible reader with the `
    the subject fully (no fixed number, at most 30), ordered by spiritual importance, the most central first, not Bible
    order. For a STORY (a person's life, a story, an event: «ما هي قصة داود؟») order the passages as it happened, the
    key episodes from beginning to end, events told twice only once, psalms placed at their moment, each note a short
-   caption of the episode
+   caption of the episode. For ALL the verses with a word or subject («كل الآيات عن الملائكة», "all references to
+   baptism"), use `find_verses` then `open_concordance` (every verse, Bible order, nothing missed; drop word forms or
+   verses that mean something else). For ALL the stories of a kind ("stories of God's wrath"), find them with
+   `find_verses`, then `open_reading` with each whole story in the order it happened
    ({book, chapter, from, to, note}; several psalms, prophets, Gospels, epistles), chosen from your knowledge and checked
    with `find_passage` when unsure. The reader reads them one after another. Then stop: steps 1-2 are for one chapter.
 1. If it names a book and chapter (or a reference such as «يوحنا ١١: ٣٥», "Psalm 23"), call `open_chapter(book, chapter,

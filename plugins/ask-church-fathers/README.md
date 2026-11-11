@@ -20,6 +20,9 @@ plays it at the exact time. Each answer links to the same answer on our website 
 
 Tools: `ask`, `get_answer`, `get_part`, `search` (free outline search), `list_sources` (sources and today's questions).
 
+Concordance: `find_verses` and `open_concordance` find every verse with given words (all references to baptism, all
+verses about angels) and the reader reads them in Bible order with the words highlighted.
+
 Readings: `open_reading` gathers passages from across the Bible for a subject or a question (several psalms,
 prophets, Gospels, epistles) and the reader reads them one after another, only those verses.
 
