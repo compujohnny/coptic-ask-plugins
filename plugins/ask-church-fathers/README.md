@@ -20,6 +20,9 @@ plays it at the exact time. Each answer links to the same answer on our website 
 
 Tools: `ask`, `get_answer`, `get_part`, `search` (free outline search), `list_sources` (sources and today's questions).
 
+Readings: `open_reading` gathers passages from across the Bible for a subject or a question (several psalms,
+prophets, Gospels, epistles) and the reader reads them one after another, only those verses.
+
 Bible reader: `open_chapter` opens any chapter in the CopticBible reader (text, narration with the verse being read
 highlighted, the fathers' commentary on every verse, navigation to any book and chapter) as a card in Claude and
 ChatGPT, or as a web page elsewhere; `find_passage` finds a chapter by reference or by words from the passage.

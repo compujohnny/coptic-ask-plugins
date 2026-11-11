@@ -41,3 +41,11 @@ When the user wants to read or hear a Bible passage ("read me the chapter in Joh
   verse being read highlighted, every verse's recorded commentary from the fathers (tap a verse), and navigation to
   any chapter or book. Elsewhere, show the returned markdown: it links to the same reader as a web page.
 - Opening chapters is free. Don't retype the chapter's text yourself; the reader shows it.
+
+When the request is about a SUBJECT or a QUESTION rather than one named chapter ("psalms about love", «آيات عن
+الرجاء», "what does the Bible say about forgiveness", «اقرأ لي عن المحبة»), build a reading with
+`open_reading(title, passages)`: choose 4-12 passages from across the Bible that speak to it (several psalms, the
+prophets, the Gospels, the epistles), each as {book, chapter, from, to, note}, in a good order. Use your knowledge of
+the Bible and check uncertain references with `find_passage`. The reader shows and reads them one after another (only
+those verses), with the fathers' commentary on any verse. Use `open_chapter` only when the user names one chapter or
+psalm, or a well-known single passage clearly answers ("the raising of Lazarus" -> John 11).

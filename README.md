@@ -36,6 +36,12 @@ the CopticBible reader. In Claude and ChatGPT it is a card inside the chat; else
 Read the Arabic text, listen to the chapter with the verse being read highlighted, tap any verse to see and hear the
 fathers' recorded commentary on it, and move to any chapter or book.
 
+## Readings across the Bible
+
+Ask about a subject or a question ("psalms about love", «آيات عن الرجاء»): the plugin gathers passages from across the
+Bible, and the reader shows and reads them one after another (only those verses), with the fathers' commentary on any
+verse and a list to jump between passages.
+
 ## How answers are shown
 
 Every answer follows the rendering contract `coptic-ask/1.0`
