@@ -51,6 +51,16 @@ Gospels, the epistles), each as {book, chapter, from, to, note}:
 - Order: by spiritual importance, NOT Bible order. The passages that define the subject most directly and deeply come
   first (for love: 1 John 4:7-21 «الله محبة», John 3:16, the great commandment, 1 Corinthians 13), then those that
   unfold its aspects, then supporting witnesses.
+For a STORY (a person's life, a story or an event: «ما هي قصة داود؟», "the story of Joseph", "the Exodus", "the
+Passion"), tell it as a story instead:
+- Order: the order it happened, beginning to end (for David: anointed by Samuel, Goliath, Saul's jealousy, Jonathan,
+  fleeing and sparing Saul, king of Judah then of Israel, the ark to Jerusalem, God's covenant (2 Samuel 7), Bathsheba,
+  Nathan's rebuke and Psalm 51, Absalom, the last words and death).
+- How many: enough to tell the whole story clearly; the key episodes, not every chapter. Tell an event that is told
+  twice (Samuel and Chronicles, the four Gospels) once, from the fuller account; leave out long genealogies and lists.
+- Weave in a psalm or prophecy at its moment when it belongs to the event; optionally end with a New Testament passage
+  about the person (for David: Acts 13:22, Matthew 1).
+- Each passage's note is a short caption of that episode, so the list reads like the story's chapters.
 Use your knowledge of
 the Bible and check uncertain references with `find_passage`. The reader shows and reads them one after another (only
 those verses), with the fathers' commentary on any verse. Use `open_chapter` only when the user names one chapter or
